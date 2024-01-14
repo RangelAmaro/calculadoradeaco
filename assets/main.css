@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 :root{
@@ -17,7 +18,6 @@
 }
 
 body{
-    font-family: 'Poppins', sans-serif;
     background-color: var(--branco);
     display: flex;
     flex-direction: column;
@@ -29,11 +29,112 @@ body{
 header{
     display: flex;
     justify-content: center;
+    margin-bottom: 15px;
 }
 
 header img{
     width: 50%;
     max-width: 300px;
+}
+
+/* placeholder */
+::placeholder {color: var(--branco);}  :-ms-input-placeholder {color: var(--branco);  } input::-moz-placeholder {color: var(--branco);}  input:-moz-placeholder {color: var(--branco);}
+
+.label-form{
+    margin: 4px 0 1px 0;
+}
+
+.input-total{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 9px;
+}
+
+.input-total .icon-input{
+    padding: 4px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-total .icon-input svg{
+    fill: var(--branco);
+    width: 38px;
+}
+
+.input-total input{
+    width: 100%;
+    padding: 4px 12px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    font-size: 130%;
+}
+
+.input-preto .icon-input {
+    background-color: var(--preto);
+}
+
+.input-preto input {
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+.input-azul .icon-input {
+    background-color: var(--azul-escuro);
+}
+
+.input-azul input {
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+}
+
+.input-verde .icon-input {
+    background-color: var(--verde-escuro);
+}
+
+.input-verde input {
+    background-color: var(--verde-escuro);
+    color: var(--branco);
+}
+
+.acoes{
+    display: flex;
+    justify-content: space-evenly;
+    bottom: 0;
+    width: 100vw;
+    left: 0;
+    position: fixed;
+    background-color: var(--branco);
+    padding: 8px;
+}
+
+.limpar-tela{
+    padding: 6px;
+    border-radius: 7px;
+    background-color: var(--vermelho);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+
+.calcular-btn{
+    padding: 6px 12px;
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+    font-size: 140%;
+    font-weight: 600;
+    border-radius: 7px;
+    border: none;
+}
+
+.limpar-tela svg{
+    width: 35px;
+    fill: var(--branco);
 }
 
 .resultado{
