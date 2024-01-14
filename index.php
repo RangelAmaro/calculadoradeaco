@@ -14,7 +14,7 @@
         <img src="assets/logo-app.png" alt="Logo">
     </header>
 
-    <label class="label-form" >Altura (mm):</label>
+    <label class="label-form">Altura (mm):</label>
     <div class="input-total input-preto">
         <span class="icon-input"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5" />
@@ -22,7 +22,7 @@
         <input type="number" id="altura" step="1" placeholder="digite a altura" required>
     </div>
 
-    <label class="label-form" >Largura (mm):</label>
+    <label class="label-form">Largura (mm):</label>
     <div class="input-total input-preto">
         <span class="icon-input">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
@@ -32,7 +32,7 @@
         <input type="number" id="largura" step="1" placeholder="digite a largura" required>
     </div>
 
-    <label class="label-form" >Espessura (mm):</label>
+    <label class="label-form">Espessura (mm):</label>
     <div class="input-total input-azul">
         <span class="icon-input">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
@@ -42,7 +42,23 @@
         <input type="number" id="espessura" step="0.1" placeholder="digite a espessura" required>
     </div>
 
-    <label class="label-form" >Valor por quilo:</label>
+    <div class="atalho-total">
+        <span class="setas-atalho">
+            <</span>
+                <div class="atalhos">
+                    <div id="1-espessura">#</div>
+                    <div id="2-espessura">#</div>
+                    <div id="3-espessura">#</div>
+                    <div id="4-espessura">#</div>
+                    <div id="5-espessura">#</div>
+                    <div id="6-espessura">#</div>
+                    <div id="7-espessura">#</div>
+                    <div id="8-espessura">#</div>
+                </div>
+                <span class="setas-atalho">></span>
+    </div>
+
+    <label class="label-form">Valor por quilo:</label>
     <div class="input-total input-verde">
         <span class="icon-input">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
@@ -52,6 +68,22 @@
             </svg>
         </span>
         <input type="number" id="valorKg" step="0.01" placeholder="digite o valor" required>
+    </div>
+
+    <div class="atalho-total">
+        <span class="setas-atalho">
+            <</span>
+                <div class="atalhos">
+                    <div id="1-valorKg">*</div>
+                    <div id="2-valorKg">*</div>
+                    <div id="3-valorKg">*</div>
+                    <div id="4-valorKg">*</div>
+                    <div id="5-valorKg">*</div>
+                    <div id="6-valorKg">*</div>
+                    <div id="7-valorKg">*</div>
+                    <div id="8-valorKg">*</div>
+                </div>
+                <span class="setas-atalho">></span>
     </div>
 
     <div class="acoes">
@@ -74,6 +106,8 @@
     <p>Para maior compatibilidade ele foi feita para web. E o melhor de tudo <strong>ESTÁ LIVRE DE ANÚNCIOS CHATOS</strong>.</p>
     <span class="meu-email">Rangelamaro90@gmail.com</span>
 
+
+    <script src="assets/atalhos.js"></script>
 </body>
 
 </html>
