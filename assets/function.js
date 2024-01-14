@@ -5,7 +5,7 @@ function calcularPeso() {
     var valorKg = parseFloat(document.getElementById('valorKg').value);
 
     if (isNaN(largura) || isNaN(altura) || isNaN(espessura) || isNaN(valorKg)) {
-        alert('Por favor, insira valores válidos para largura, altura, espessura e valor do Kg do aço.');
+        alert('Por favor, insira valores válidos!');
         return;
     }
 
@@ -15,6 +15,6 @@ function calcularPeso() {
 
     var valorTotal = peso * valorKg; // Convertendo para quilogramas e calculando o valor total
 
-    document.getElementById('resultado').innerHTML = 'Peso da chapa de aço: ' + peso.toFixed(2) + ' g<br>';
-    document.getElementById('resultado').innerHTML += 'Valor total: R$ ' + valorTotal.toFixed(2);
+    document.getElementById('resultado').innerHTML = 'Peso: ' + peso.toFixed(2) + ' Kg<br>';
+    document.getElementById('resultado').innerHTML += 'Valor: <strong>R$ ' + valorTotal.toFixed(2) + '</strong>';
 }

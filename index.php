@@ -46,14 +46,19 @@
         <span class="setas-atalho">
             <</span>
                 <div class="atalhos">
-                    <div id="1-espessura">#</div>
-                    <div id="2-espessura">#</div>
-                    <div id="3-espessura">#</div>
-                    <div id="4-espessura">#</div>
-                    <div id="5-espessura">#</div>
-                    <div id="6-espessura">#</div>
-                    <div id="7-espessura">#</div>
-                    <div id="8-espessura">#</div>
+                    <div id="1-espessura" class="atalhos-btn atalhos-btn-azul" >#0,90</div>
+                    <div id="2-espessura" class="atalhos-btn atalhos-btn-azul-mod" >#1,20</div>
+                    <div id="3-espessura" class="atalhos-btn atalhos-btn-azul" >#1,50</div>
+                    <div id="4-espessura" class="atalhos-btn atalhos-btn-azul-mod" >#2,00</div>
+                    <div id="5-espessura" class="atalhos-btn atalhos-btn-azul" >#2,65</div>
+                    <div id="6-espessura" class="atalhos-btn atalhos-btn-azul-mod" >#3,18</div>
+                    <div id="7-espessura" class="atalhos-btn atalhos-btn-azul" >#4,75</div>
+                    <div id="8-espessura" class="atalhos-btn atalhos-btn-azul-mod" >#6,35</div>
+                    <div id="9-espessura" class="atalhos-btn atalhos-btn-azul" >#7,94</div>
+                    <div id="10-espessura" class="atalhos-btn atalhos-btn-azul-mod" >#9,53</div>
+                    <div id="11-espessura" class="atalhos-btn atalhos-btn-azul" >#12,7</div>
+                    <div id="12-espessura" class="atalhos-btn atalhos-btn-azul-mod" >#15,88</div>
+                    <div id="13-espessura" class="atalhos-btn atalhos-btn-azul" >#19,05</div>
                 </div>
                 <span class="setas-atalho">></span>
     </div>
@@ -74,20 +79,21 @@
         <span class="setas-atalho">
             <</span>
                 <div class="atalhos">
-                    <div id="1-valorKg">*</div>
-                    <div id="2-valorKg">*</div>
-                    <div id="3-valorKg">*</div>
-                    <div id="4-valorKg">*</div>
-                    <div id="5-valorKg">*</div>
-                    <div id="6-valorKg">*</div>
-                    <div id="7-valorKg">*</div>
-                    <div id="8-valorKg">*</div>
+                    <div id="1-valorKg" class="atalhos-btn atalhos-btn-verde" >15,00</div>
+                    <div id="2-valorKg" class="atalhos-btn atalhos-btn-verde" >17,00</div>
+                    <div id="3-valorKg" class="atalhos-btn atalhos-btn-verde" >65,00</div>
+                    <div id="4-valorKg" class="atalhos-btn atalhos-btn-verde" >75,00</div>
+                    <!--
+                    <div id="5-valorKg" class="atalhos-btn" >*</div>
+                    <div id="6-valorKg" class="atalhos-btn" >*</div>
+                    <div id="7-valorKg" class="atalhos-btn" >*</div>
+                    <div id="8-valorKg" class="atalhos-btn" >*</div> -->
                 </div>
                 <span class="setas-atalho">></span>
     </div>
 
     <div class="acoes">
-        <div class="limpar-tela"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+        <div class="limpar-tela" onclick="limparTela()" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
                 <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0" />
             </svg></div>
         <button class="calcular-btn" onclick="calcularPeso()">CALCULAR</button>

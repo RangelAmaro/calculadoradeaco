@@ -11,6 +11,7 @@
     --preto: #000;
     --vermelho: #FF3131;
     --azul-escuro: #004AAD;
+    --azul-escuro-mod: rgb(17, 48, 185);
     --verde-escuro: #009D51;
     --azul-claro: #38B6FF;
     --cinza: #9B9B9B;
@@ -101,6 +102,41 @@ header img{
     color: var(--branco);
 }
 
+.atalho-total{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0 0px 0;
+}
+
+.atalhos{
+    display: flex;
+    gap: 7px;
+    overflow: auto;
+}
+
+.atalhos-btn{
+    padding: 3px;
+    font-size: 100%;
+    cursor: pointer;
+    border-radius: 7px;
+    font-weight: 500;
+}
+
+.atalhos-btn-azul{
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+}
+
+.atalhos-btn-azul-mod{
+    background-color: var(--azul-escuro-mod);
+    color: var(--branco);
+}
+
+.atalhos-btn-verde{
+    background-color: var(--verde-escuro);
+    color: var(--branco);
+}
+
 .acoes{
     display: flex;
     justify-content: space-evenly;
@@ -120,6 +156,7 @@ header img{
     align-items: center;
     justify-content: center;
     width: fit-content;
+    cursor: pointer;
 }
 
 .calcular-btn{
@@ -130,6 +167,7 @@ header img{
     font-weight: 600;
     border-radius: 7px;
     border: none;
+    cursor: pointer;
 }
 
 .limpar-tela svg{
@@ -139,7 +177,7 @@ header img{
 
 .resultado{
     padding: 5px;
-    margin: 9px 0;
+    margin: 9px 0 68px 0;
     border: 3px solid var(--cinza);
     border-radius: 9px;
 }
@@ -148,6 +186,11 @@ header img{
     text-align: center;
     font-weight: 800;
     font-size: 120%;
+    text-decoration-line: underline;
+}
+
+#resultado{
+    font-size: 130%;
 }
 
 .titulo{
