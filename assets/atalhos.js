@@ -65,11 +65,11 @@ document.getElementById('2-valorKg').addEventListener('click', function () {
 });
 document.getElementById('3-valorKg').addEventListener('click', function () {
     var valorKgInput = document.getElementById('valorKg');
-    valorKgInput.value = '65';
+    valorKgInput.value = '67';
 });
 document.getElementById('4-valorKg').addEventListener('click', function () {
     var valorKgInput = document.getElementById('valorKg');
-    valorKgInput.value = '75';
+    valorKgInput.value = '77';
 });
 document.getElementById('5-valorKg').addEventListener('click', function () {
     var valorKgInput = document.getElementById('valorKg');
