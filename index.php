@@ -83,8 +83,8 @@
                         <div class="atalhos">
                             <div id="1-valorKg" class="atalhos-btn atalhos-btn-verde">15,00</div>
                             <div id="2-valorKg" class="atalhos-btn atalhos-btn-verde">17,00</div>
-                            <div id="3-valorKg" class="atalhos-btn atalhos-btn-verde">65,00</div>
-                            <div id="4-valorKg" class="atalhos-btn atalhos-btn-verde">75,00</div>
+                            <div id="3-valorKg" class="atalhos-btn atalhos-btn-verde">67,00</div>
+                            <div id="4-valorKg" class="atalhos-btn atalhos-btn-verde">77,00</div>
                             <!--
                     <div id="5-valorKg" class="atalhos-btn" >*</div>
                     <div id="6-valorKg" class="atalhos-btn" >*</div>
