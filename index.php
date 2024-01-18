@@ -53,14 +53,14 @@
                             <div id="3-espessura" class="atalhos-btn atalhos-btn-azul">#1,50</div>
                             <div id="4-espessura" class="atalhos-btn atalhos-btn-azul-mod">#2,00</div>
                             <div id="5-espessura" class="atalhos-btn atalhos-btn-azul">#2,65</div>
-                            <div id="6-espessura" class="atalhos-btn atalhos-btn-azul-mod">#3,18</div>
-                            <div id="7-espessura" class="atalhos-btn atalhos-btn-azul">#4,75</div>
-                            <div id="8-espessura" class="atalhos-btn atalhos-btn-azul-mod">#6,35</div>
-                            <div id="9-espessura" class="atalhos-btn atalhos-btn-azul">#7,94</div>
-                            <div id="10-espessura" class="atalhos-btn atalhos-btn-azul-mod">#9,53</div>
-                            <div id="11-espessura" class="atalhos-btn atalhos-btn-azul">#12,7</div>
-                            <div id="12-espessura" class="atalhos-btn atalhos-btn-azul-mod">#15,88</div>
-                            <div id="13-espessura" class="atalhos-btn atalhos-btn-azul">#19,05</div>
+                            <div id="6-espessura" class="atalhos-btn atalhos-btn-azul-mod">#3,18 (1/8)</div>
+                            <div id="7-espessura" class="atalhos-btn atalhos-btn-azul">#4,75 (3/16)</div>
+                            <div id="8-espessura" class="atalhos-btn atalhos-btn-azul-mod">#6,35 (1/4)</div>
+                            <div id="9-espessura" class="atalhos-btn atalhos-btn-azul">#7,94 (5/16)</div>
+                            <div id="10-espessura" class="atalhos-btn atalhos-btn-azul-mod">#9,53 (3/8)</div>
+                            <div id="11-espessura" class="atalhos-btn atalhos-btn-azul">#12,7 (1/2)</div>
+                            <div id="12-espessura" class="atalhos-btn atalhos-btn-azul-mod">#15,88 (5/8)</div>
+                            <div id="13-espessura" class="atalhos-btn atalhos-btn-azul">#19,05 (3/4)</div>
                         </div>
                         <span class="setas-atalho">></span>
             </div>
