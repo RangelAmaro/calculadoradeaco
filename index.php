@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de aço para orçamento</title>
-    <link rel="stylesheet" href="assets/mainn.css">
+    <link rel="stylesheet" href="assets/main2.css">
     <script src="assets/function.js"></script>
 </head>
 
@@ -53,14 +53,14 @@
                             <div id="3-espessura" class="atalhos-btn atalhos-btn-azul">#1,50</div>
                             <div id="4-espessura" class="atalhos-btn atalhos-btn-azul-mod">#2,00</div>
                             <div id="5-espessura" class="atalhos-btn atalhos-btn-azul">#2,65</div>
-                            <div id="6-espessura" class="atalhos-btn atalhos-btn-azul-mod">#3,18 (1/8)</div>
-                            <div id="7-espessura" class="atalhos-btn atalhos-btn-azul">#4,75 (3/16)</div>
-                            <div id="8-espessura" class="atalhos-btn atalhos-btn-azul-mod">#6,35 (1/4)</div>
-                            <div id="9-espessura" class="atalhos-btn atalhos-btn-azul">#7,94 (5/16)</div>
-                            <div id="10-espessura" class="atalhos-btn atalhos-btn-azul-mod">#9,53 (3/8)</div>
-                            <div id="11-espessura" class="atalhos-btn atalhos-btn-azul">#12,7 (1/2)</div>
-                            <div id="12-espessura" class="atalhos-btn atalhos-btn-azul-mod">#15,88 (5/8)</div>
-                            <div id="13-espessura" class="atalhos-btn atalhos-btn-azul">#19,05 (3/4)</div>
+                            <div id="6-espessura" class="atalhos-btn atalhos-btn-azul-mod">#3,18(1/8)</div>
+                            <div id="7-espessura" class="atalhos-btn atalhos-btn-azul">#4,75(3/16)</div>
+                            <div id="8-espessura" class="atalhos-btn atalhos-btn-azul-mod">#6,35(1/4)</div>
+                            <div id="9-espessura" class="atalhos-btn atalhos-btn-azul">#7,94(5/16)</div>
+                            <div id="10-espessura" class="atalhos-btn atalhos-btn-azul-mod">#9,53(3/8)</div>
+                            <div id="11-espessura" class="atalhos-btn atalhos-btn-azul">#12,7(1/2)</div>
+                            <div id="12-espessura" class="atalhos-btn atalhos-btn-azul-mod">#15,88(5/8)</div>
+                            <div id="13-espessura" class="atalhos-btn atalhos-btn-azul">#19,05(3/4)</div>
                         </div>
                         <span class="setas-atalho">></span>
             </div>
@@ -118,7 +118,7 @@
     <span class="meu-email">Rangelamaro90@gmail.com</span>
 
 
-    <script src="assets/atalhos.js"></script>
+    <script src="assets/atalhos2.js"></script>
 </body>
 
 </html>

@@ -10,6 +10,8 @@
     --branco: #fff;
     --preto: #000;
     --vermelho: #FF3131;
+    --vermelho-claro: #ff6b6b;
+    --azul-claro: #2c71ca;
     --azul-escuro: #004AAD;
     --azul-escuro-mod: rgb(17, 48, 185);
     --verde-escuro: #009D51;
@@ -173,6 +175,10 @@ input:-moz-placeholder {
     cursor: pointer;
 }
 
+.limpar-tela:hover{
+    background-color: var(--vermelho-claro);
+}
+
 .calcular-btn {
     padding: 6px 12px;
     background-color: var(--azul-escuro);
@@ -182,6 +188,10 @@ input:-moz-placeholder {
     border-radius: 7px;
     border: none;
     cursor: pointer;
+}
+
+.calcular-btn:hover{
+    background-color: var(--azul-claro);
 }
 
 .limpar-tela svg {
