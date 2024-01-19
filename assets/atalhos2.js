@@ -65,7 +65,7 @@ document.getElementById('2-valorKg').addEventListener('click', function () {
 });
 document.getElementById('3-valorKg').addEventListener('click', function () {
     var valorKgInput = document.getElementById('valorKg');
-    valorKgInput.value = '67';
+    valorKgInput.value = '75';
 });
 document.getElementById('4-valorKg').addEventListener('click', function () {
     var valorKgInput = document.getElementById('valorKg');
