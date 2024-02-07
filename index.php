@@ -81,8 +81,8 @@
                 <span class="setas-atalho">
                     <</span>
                         <div class="atalhos">
-                            <div id="1-valorKg" class="atalhos-btn atalhos-btn-verde">15,00</div>
-                            <div id="2-valorKg" class="atalhos-btn atalhos-btn-verde">17,00</div>
+                            <div id="1-valorKg" class="atalhos-btn atalhos-btn-verde">16,00</div>
+                            <div id="2-valorKg" class="atalhos-btn atalhos-btn-verde">18,00</div>
                             <div id="3-valorKg" class="atalhos-btn atalhos-btn-verde">75,00</div>
                             <div id="4-valorKg" class="atalhos-btn atalhos-btn-verde">77,00</div>
                             <!--
