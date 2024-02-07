@@ -57,11 +57,11 @@ document.getElementById('13-espessura').addEventListener('click', function () {
 // Atalho valor do KG
 document.getElementById('1-valorKg').addEventListener('click', function () {
     var valorKgInput = document.getElementById('valorKg');
-    valorKgInput.value = '15';
+    valorKgInput.value = '16';
 });
 document.getElementById('2-valorKg').addEventListener('click', function () {
     var valorKgInput = document.getElementById('valorKg');
-    valorKgInput.value = '17';
+    valorKgInput.value = '18';
 });
 document.getElementById('3-valorKg').addEventListener('click', function () {
     var valorKgInput = document.getElementById('valorKg');
