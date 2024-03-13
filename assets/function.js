@@ -15,6 +15,10 @@ function calcularPeso() {
 
     var valorTotal = peso * valorKg; // Convertendo para quilogramas e calculando o valor total
 
+    // Substitui o ponto pelo caractere de vírgula no valorTotal
+    var valorFormatado = valorTotal.toFixed(2).replace('.', ',');
+
+    // Exibe o valor formatado na página
     document.getElementById('resultado').innerHTML = 'Peso: ' + peso.toFixed(2) + ' Kg<br>';
-    document.getElementById('resultado').innerHTML += 'Valor: <strong>R$ ' + valorTotal.toFixed(2) + '</strong>';
+    document.getElementById('resultado').innerHTML += 'Valor: <strong>R$ ' + valorFormatado + '</strong>';
 }

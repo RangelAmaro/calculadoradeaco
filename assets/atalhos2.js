@@ -51,6 +51,10 @@ document.getElementById('13-espessura').addEventListener('click', function () {
     var espessuraInput = document.getElementById('espessura');
     espessuraInput.value = '19.05';
 });
+document.getElementById('14-espessura').addEventListener('click', function () {
+    var espessuraInput = document.getElementById('espessura');
+    espessuraInput.value = '2.25';
+});
 
 
 
