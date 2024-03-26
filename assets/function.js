@@ -19,6 +19,6 @@ function calcularPeso() {
     var valorFormatado = valorTotal.toFixed(2).replace('.', ',');
 
     // Exibe o valor formatado na página
-    document.getElementById('resultado').innerHTML = 'Peso: ' + peso.toFixed(2) + ' Kg<br>';
+    document.getElementById('resultado').innerHTML = 'Peso: ' + peso.toFixed(3) + ' Kg<br>';
     document.getElementById('resultado').innerHTML += 'Valor: <strong>R$ ' + valorFormatado + '</strong>';
 }
