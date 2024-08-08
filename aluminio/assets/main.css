@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --branco: #fff;
+    --preto: #000;
+    --vermelho: #FF3131;
+    --vermelho-claro: #ff6b6b;
+    --azul-medio: #2c71ca;
+    --azul-escuro: #004AAD;
+    --azul-escuro-mod: rgb(17, 48, 185);
+    --verde-escuro: #009D51;
+    --azul-claro: #38B6FF;
+    --cinza: #9B9B9B;
+
+}
+
+body {
+    background-color: #afd3ee;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    color: var(--preto);
+}
+
+/* CONTEUDO */
+header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+header img {
+    width: 50%;
+    max-width: 220px;
+}
+
+/* placeholder */
+::placeholder {
+    color: var(--branco);
+}
+
+:-ms-input-placeholder {
+    color: var(--branco);
+}
+
+input::-moz-placeholder {
+    color: var(--branco);
+}
+
+input:-moz-placeholder {
+    color: var(--branco);
+}
+
+.label-form {
+    margin: 4px 0 1px 0;
+}
+
+.input-total {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 9px;
+}
+
+.input-total .icon-input {
+    padding: 4px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-total .icon-input svg {
+    fill: var(--branco);
+    width: 38px;
+}
+
+.input-total input {
+    width: 100%;
+    padding: 4px 12px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    font-size: 130%;
+}
+
+.input-preto .icon-input {
+    background-color: var(--preto);
+}
+
+.input-preto input {
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+.input-azul .icon-input {
+    background-color: var(--azul-escuro);
+}
+
+.input-azul input {
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+}
+
+.input-verde .icon-input {
+    background-color: var(--verde-escuro);
+}
+
+.input-verde input {
+    background-color: var(--verde-escuro);
+    color: var(--branco);
+}
+
+.atalho-total {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0 0px 0;
+}
+
+.atalhos {
+    display: flex;
+    gap: 7px;
+    overflow: auto;
+}
+
+.atalhos-btn {
+    padding: 3px;
+    font-size: 100%;
+    cursor: pointer;
+    border-radius: 7px;
+    font-weight: 500;
+}
+
+.atalhos-btn-azul {
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+}
+
+.atalhos-btn-azul-mod {
+    background-color: var(--azul-escuro-mod);
+    color: var(--branco);
+}
+
+.atalhos-btn-verde {
+    background-color: var(--verde-escuro);
+    color: var(--branco);
+}
+
+.acoes {
+    display: flex;
+    justify-content: space-evenly;
+    bottom: 0;
+    width: 100vw;
+    left: 0;
+    position: fixed;
+    background-color: var(--branco);
+    padding: 8px;
+}
+
+.limpar-tela {
+    padding: 6px;
+    border-radius: 7px;
+    background-color: var(--vermelho);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.limpar-tela:hover{
+    background-color: var(--vermelho-claro);
+}
+
+.calcular-btn {
+    padding: 6px 12px;
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+    font-size: 140%;
+    font-weight: 600;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+.calcular-btn:hover{
+    background-color: var(--azul-medio);
+}
+
+.limpar-tela svg {
+    width: 35px;
+    fill: var(--branco);
+}
+
+.resultado {
+    padding: 5px;
+    margin: 9px 0 68px 0;
+    border: 3px solid var(--preto);
+    border-radius: 9px;
+}
+
+.titulo-resultado {
+    text-align: center;
+    font-weight: 800;
+    font-size: 120%;
+    text-decoration-line: underline;
+}
+
+#resultado {
+    font-size: 130%;
+}
+
+.titulo {
+    padding-left: 5px;
+    border-left: 3px solid var(--azul-escuro);
+    margin: 4px 0;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+.meu-email {
+    padding: 8px;
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+    margin: 9px;
+    text-align: center;
+    border-radius: 9px;
+}
+
+table th{
+    text-align: left;
+    background-color: black!important;
+    color: white;
+    font-size: 15px!important;
+    font-weight: 400!important;
+    border: 1px solid white;
+}
+
+table tr{
+    text-align: left;
+    background-color: white!important;
+    font-size: 15px!important;
+    font-weight: 400!important;
+    border: 1px solid gray;
+    padding: 0;
+}
+
+td {
+	color: black;
+}
+
+@media screen and (min-width: 790px) {
+    .se-divide {
+        display: flex;
+        justify-content: space-around;
+    }
+    .se-divide-div{
+        width: 45%;
+    }
+    .resultado{
+        margin: 9px 0 34px 0;
+    }
+    .acoes{
+        position: static;
+        width: 100%;
+    }
+    .footer-titulo {
+        margin-top: 60px;
+    }
+    .acoes{
+        background-color: transparent;
+    }
+}

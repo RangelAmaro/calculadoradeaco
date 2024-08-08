@@ -7,8 +7,8 @@
 }
 
 :root {
-    --branco: #fff;
-    --preto: #000;
+    --branco: #000;
+    --preto: #fff;
     --vermelho: #FF3131;
     --vermelho-claro: #ff6b6b;
     --azul-medio: #2c71ca;
@@ -38,6 +38,28 @@ header {
 header img {
     width: 50%;
     max-width: 220px;
+}
+
+table th{
+    text-align: left;
+    background-color: black!important;
+    color: white;
+    font-size: 15px!important;
+    font-weight: 400!important;
+    border: 1px solid white;
+}
+
+table tr{
+    text-align: left;
+    background-color: white!important;
+    font-size: 15px!important;
+    font-weight: 400!important;
+    border: 1px solid gray;
+    padding: 0;
+}
+
+td {
+	color: black;
 }
 
 /* placeholder */
