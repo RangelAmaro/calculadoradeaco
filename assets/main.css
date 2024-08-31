@@ -37,7 +37,7 @@ header {
 
 header img {
     width: 50%;
-    max-width: 220px;
+    max-width: 400px;
 }
 
 table th{
@@ -128,7 +128,7 @@ input:-moz-placeholder {
 
 .input-azul input {
     background-color: var(--azul-escuro);
-    color: var(--branco);
+    color: var(--preto);
 }
 
 .input-verde .icon-input {
@@ -137,7 +137,7 @@ input:-moz-placeholder {
 
 .input-verde input {
     background-color: var(--verde-escuro);
-    color: var(--branco);
+    color: var(--preto);
 }
 
 .atalho-total {
@@ -162,17 +162,17 @@ input:-moz-placeholder {
 
 .atalhos-btn-azul {
     background-color: var(--azul-escuro);
-    color: var(--branco);
+    color: var(--preto);
 }
 
 .atalhos-btn-azul-mod {
     background-color: var(--azul-escuro-mod);
-    color: var(--branco);
+    color: var(--preto);
 }
 
 .atalhos-btn-verde {
     background-color: var(--verde-escuro);
-    color: var(--branco);
+    color: var(--preto);
 }
 
 .acoes {

@@ -25,3 +25,11 @@ function calcularPeso() {
     document.getElementById('resultado').innerHTML += 'Valor: <strong>R$ ' + valorFormatado + '</strong>';
     document.getElementById('resultado').innerHTML += '<table><tbody><tr><th style="text-align:left;">Blanque</th><th style="text-align:left;">Espessura</th><th style="text-align:left;">Largura</th><th style="text-align:left;">Altura</th><th style="text-align:left;">Peso</th><th style="text-align:left;">Preço</th></tr><tr><td>' + altura + 'mm X ' + largura + 'mm</td><td>#' + espessura + 'mm </td><td>' + largura + '</td><td>' + altura + '</td><td>' + peso.toFixed(3).replace('.', ',') + '</td><td>' + valorFormatado + '</td></tr></tbody></table>';
 }
+
+// Atalho teclado
+
+document.addEventListener('keydown', function (event) {
+    if (event.key === 'Enter') {
+        calcularPeso();
+    }
+});

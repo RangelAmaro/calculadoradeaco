@@ -94,7 +94,7 @@ document.getElementById('8-valorKg').addEventListener('click', function () {
 
 // Limpar valores input
 
-function limparTela(){
+function limparTela() {
     var input1 = document.getElementById('altura');
     var input2 = document.getElementById('largura');
     var input3 = document.getElementById('espessura');
